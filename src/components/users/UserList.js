@@ -4,18 +4,18 @@ import { Grid, Table, TableBody, TableContainer, TableHead, TableRow } from '@mu
 
 import UserListDisplay from '../../store/actions/action';
 function UserList() {
-  const [UserList, SetUserList] = useState([]);
-  useEffect(() => {
-      axios.get(`https://dummyjson.com/users`)
-          .then(response => {
-              console.log(response);
-              console.log("users data",response.data.users);
-              SetUserList(response.data);
-          })
-          .catch(error => {
-              console.log(error);
-          })
-  }, [])
+  // const [UserList, SetUserList] = useState([]);
+  // useEffect(() => {
+  //     axios.get(`https://dummyjson.com/users`)
+  //         .then(response => {
+  //             console.log(response);
+  //             console.log("users data",response.data.users);
+  //             SetUserList(response.data);
+  //         })
+  //         .catch(error => {
+  //             console.log(error);
+  //         })
+  // }, [])
   return (
     <div>
       <p>hellow</p>
