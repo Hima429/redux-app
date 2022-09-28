@@ -9,7 +9,7 @@ function userreducer(users= initialState, action){
         case GellAll_UsersList: return [users, payload];
     
     default:
-        return tutorials;s
+        return users;
     }
 };
 export default userreducer;

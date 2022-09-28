@@ -10,3 +10,4 @@ class UserDetailsAPI{
         return http.get('/users/${Id}')
     }
 }
+export default UserDetailsAPI;

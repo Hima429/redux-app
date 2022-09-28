@@ -16,3 +16,5 @@ export const UserListDisplay = () => async () => {
         return Promise.reject(err);
     }
 }
+
+export default UserListDisplay;
