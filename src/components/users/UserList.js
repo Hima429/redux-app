@@ -23,13 +23,13 @@ function UserList() {
       {UserListDisplay.map((item, index) => {
         <Table>
             <TableHead>
-              <TableRow></TableRow>
+              <TableRow>{item.id}</TableRow>
             </TableHead>
-          <TableBody></TableBody>
+          <TableBody>{item.id}</TableBody>
         
         </Table>
       })}
-        <TableContainer>
+        {/* <TableContainer>
           <Table>
             <TableHead>
               <TableRow>
@@ -40,7 +40,7 @@ function UserList() {
 
             </TableBody>
           </Table>
-        </TableContainer>
+        </TableContainer> */}
       </Grid>
     </div>
   )
